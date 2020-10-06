@@ -1,0 +1,20 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container {
+   width: 60%;
+   height: 80%;
+   border: 2px solid;
+   border-color: $dark_grey;
+   display: flex;
+   min-height: 0;
+   
+}

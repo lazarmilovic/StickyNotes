@@ -1,0 +1,32 @@
+
+   .older_notes{
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    border-left: 2px solid;
+    border-color:$dark_grey;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+
+    .older_notes_note{
+        width: 100%;
+        max-height: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: $light_blue;
+        text-align: center;
+        cursor: pointer;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+        border-color: $dark_grey;
+        
+
+        .older_notes_note_heading{
+            color:white;
+            
+        }
+    }
+}
